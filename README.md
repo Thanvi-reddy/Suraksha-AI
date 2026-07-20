@@ -8,13 +8,13 @@ AI-powered Decision Intelligence for Resilient Energy Security
 
 <p align="center">
 
-&#x20; <img src="assets/home.png" alt="Suraksha AI" width="900"/>
+&#x20; <img src="assets/suraksha-home.png" alt="Suraksha AI" width="900"/>
 
 </p>
 
 
 
-\---
+
 
 
 
@@ -30,7 +30,7 @@ The platform combines interactive visualization, predictive analysis, and an AI 
 
 
 
-\---
+
 
 
 
@@ -54,7 +54,7 @@ Key Features
 
 
 
-\---
+
 
 
 
@@ -84,7 +84,7 @@ Suraksha AI can be expanded with:
 
 
 
-\---
+
 
 
 
@@ -92,21 +92,21 @@ Technology Stack
 
 
 
-| Frontend | Backend | AI |
-
-|----------|---------|----|
-
-| React | FastAPI | Groq LLM |
-
-| Vite | Python | AI Copilot |
-
-| Axios | Uvicorn | |
-
-| Framer Motion | REST APIs | |
+| Frontend | Backend | AI         |
 
 
 
-\---
+| React    | FastAPI | Groq LLM   |
+
+| Vite     | Python  | AI Copilot |
+
+| Axios    | Uvicorn |            |
+
+|FramerMotion| REST APIs |        |
+
+
+
+
 
 
 
@@ -200,7 +200,7 @@ http://localhost:5173
 
 
 
-\---
+
 
 
 
@@ -208,7 +208,7 @@ Developer
 
 
 
-\*\*Yeturu Thanvi\*\*
+Yeturu Thanvi
 
 
 
@@ -218,11 +218,11 @@ GitHub: https://github.com/Thanvi-reddy
 
 
 
-\---
 
 
 
-\## 🏆 Hackathon Project
+
+Hackathon Project
 
 
 
