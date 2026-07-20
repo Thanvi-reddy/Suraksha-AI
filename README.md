@@ -8,7 +8,7 @@
 
 <p align="center">
 
-&#x20; <img src="assets/suraksha-home.png" alt="Suraksha AI Dashboard" width="900"/>
+&#x20; <img src="assets/home.png" alt="Suraksha AI" width="900"/>
 
 </p>
 
@@ -18,41 +18,15 @@
 
 
 
-\## 🌍 What is Suraksha AI?
+\## 🌍 Overview
 
 
 
-Suraksha AI is an intelligent web platform designed to help organizations monitor energy supply networks, analyze potential risks, simulate disruption scenarios, and receive AI-powered recommendations for procurement and decision-making.
+Suraksha AI is an AI-powered platform that helps organizations monitor energy supply networks, identify potential risks, simulate disruption scenarios, and receive intelligent recommendations for resilient procurement planning.
 
 
 
-By combining data visualization, predictive analysis, and generative AI, Suraksha AI enables faster, smarter, and more informed responses to supply-chain disruptions.
-
-
-
-\---
-
-
-
-\## 🚀 What Can Suraksha AI Do?
-
-
-
-\- 🤖 AI-powered Copilot for decision support
-
-\- 📊 Interactive dashboard for monitoring energy networks
-
-\- 🗺️ Visualize supply routes and risk locations
-
-\- ⚠️ Identify high-risk transportation routes
-
-\- 🔄 Simulate disruption scenarios
-
-\- 📈 Compare procurement strategies
-
-\- 📉 Monitor baseline risk trends
-
-\- 💡 Generate intelligent recommendations using AI
+The platform combines interactive visualization, predictive analysis, and an AI Copilot to support faster and more informed decision-making.
 
 
 
@@ -60,29 +34,53 @@ By combining data visualization, predictive analysis, and generative AI, Suraksh
 
 
 
-\## 🔮 Future Scope
+\## ✨ Key Features
 
 
 
-Suraksha AI can be extended to support:
+\- 🤖 AI Copilot for intelligent decision support
+
+\- 📊 Interactive dashboard for energy risk monitoring
+
+\- 🗺️ Supply route visualization
+
+\- ⚠️ Risk analysis and disruption detection
+
+\- 🔄 Scenario simulation
+
+\- 📈 Procurement strategy recommendations
+
+\- 📉 Baseline risk monitoring
 
 
 
-\- 🌐 Real-time energy market integration
+\---
 
-\- 📡 Live satellite and weather data
 
-\- 🔔 Automated risk alerts
 
-\- 📱 Mobile application
+\## 🚀 Future Scope
 
-\- ☁️ Cloud deployment
 
-\- 📄 PDF report generation
 
-\- 🌍 Multi-country energy network monitoring
+Suraksha AI can be expanded with:
 
-\- 🤝 Integration with government and enterprise systems
+
+
+\- Real-time energy market integration
+
+\- Weather and satellite data analysis
+
+\- Predictive AI models
+
+\- Cloud deployment
+
+\- Mobile application
+
+\- Automated alerts
+
+\- PDF report generation
+
+\- Multi-country energy network monitoring
 
 
 
@@ -94,29 +92,17 @@ Suraksha AI can be extended to support:
 
 
 
-\### Frontend
+| Frontend | Backend | AI |
 
-\- React
+|----------|---------|----|
 
-\- Vite
+| React | FastAPI | Groq LLM |
 
-\- Axios
+| Vite | Python | AI Copilot |
 
-\- Framer Motion
+| Axios | Uvicorn | |
 
-\- CSS
-
-
-
-\### Backend
-
-\- Python
-
-\- FastAPI
-
-\- Uvicorn
-
-\- Groq API
+| Framer Motion | REST APIs | |
 
 
 
@@ -124,11 +110,11 @@ Suraksha AI can be extended to support:
 
 
 
-\## ⚙️ How to Run the Project
+\## ⚙️ How to Run
 
 
 
-\### 1️⃣ Clone the Repository
+\### Clone the repository
 
 
 
@@ -142,11 +128,7 @@ cd Suraksha-AI
 
 
 
-\---
-
-
-
-\### 2️⃣ Start the Backend
+\### Backend
 
 
 
@@ -166,11 +148,15 @@ venv\\Scripts\\activate
 
 pip install -r requirements.txt
 
+
+
+python -m uvicorn main:app --reload --port 8000
+
 ```
 
 
 
-Create a `.env` file inside the `backend` folder:
+Create a `.env` file:
 
 
 
@@ -182,39 +168,7 @@ GROQ\_API\_KEY=YOUR\_GROQ\_API\_KEY
 
 
 
-Run the backend:
-
-
-
-```bash
-
-python -m uvicorn main:app --reload --port 8000
-
-```
-
-
-
-Backend URL:
-
-
-
-```
-
-http://localhost:8000
-
-```
-
-
-
-\---
-
-
-
-\### 3️⃣ Start the Frontend
-
-
-
-Open another terminal:
+\### Frontend
 
 
 
@@ -234,7 +188,7 @@ npm run dev
 
 
 
-Frontend URL:
+Open:
 
 
 
@@ -250,7 +204,7 @@ http://localhost:5173
 
 
 
-\## 👩‍💻 Team
+\## 👩‍💻 Developer
 
 
 
@@ -274,5 +228,5 @@ GitHub: https://github.com/Thanvi-reddy
 
 
 
-Suraksha AI was developed as a hackathon solution to improve energy resilience using Artificial Intelligence, predictive risk analysis, and intelligent decision support.
+Built as a hackathon solution to demonstrate how Artificial Intelligence can improve energy resilience through intelligent risk analysis, simulation, and AI-assisted decision support.
 
