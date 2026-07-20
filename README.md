@@ -162,7 +162,7 @@ Create a `.env` file:
 
 ```env
 
-GROQ\_API\_KEY=YOUR\_GROQ\_API\_KEY
+GROQ_API_KEY=YOUR_GROQ_API_KEY
 
 ```
 
