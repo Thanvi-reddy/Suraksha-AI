@@ -1,8 +1,8 @@
-\# 🛡️ Suraksha AI
+Suraksha AI
 
 
 
-\### AI-powered Decision Intelligence for Resilient Energy Security
+AI-powered Decision Intelligence for Resilient Energy Security
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-\## 🌍 Overview
+Overview
 
 
 
@@ -34,23 +34,23 @@ The platform combines interactive visualization, predictive analysis, and an AI 
 
 
 
-\## ✨ Key Features
+Key Features
 
 
 
-\- 🤖 AI Copilot for intelligent decision support
+\- AI Copilot for intelligent decision support
 
-\- 📊 Interactive dashboard for energy risk monitoring
+\- Interactive dashboard for energy risk monitoring
 
-\- 🗺️ Supply route visualization
+\- Supply route visualization
 
-\- ⚠️ Risk analysis and disruption detection
+\- Risk analysis and disruption detection
 
-\- 🔄 Scenario simulation
+\- Scenario simulation
 
-\- 📈 Procurement strategy recommendations
+\- Procurement strategy recommendations
 
-\- 📉 Baseline risk monitoring
+\- Baseline risk monitoring
 
 
 
@@ -58,7 +58,7 @@ The platform combines interactive visualization, predictive analysis, and an AI 
 
 
 
-\## 🚀 Future Scope
+Future Scope
 
 
 
@@ -88,7 +88,7 @@ Suraksha AI can be expanded with:
 
 
 
-\## 🛠️ Technology Stack
+Technology Stack
 
 
 
@@ -110,11 +110,11 @@ Suraksha AI can be expanded with:
 
 
 
-\## ⚙️ How to Run
+How to Run
 
 
 
-\### Clone the repository
+Clone the repository
 
 
 
@@ -128,7 +128,7 @@ cd Suraksha-AI
 
 
 
-\### Backend
+Backend
 
 
 
@@ -168,7 +168,7 @@ GROQ\_API\_KEY=YOUR\_GROQ\_API\_KEY
 
 
 
-\### Frontend
+Frontend
 
 
 
@@ -204,15 +204,13 @@ http://localhost:5173
 
 
 
-\## 👩‍💻 Developer
+Developer
 
 
 
 \*\*Yeturu Thanvi\*\*
 
 
-
-AI \& Machine Learning Graduate
 
 
 
