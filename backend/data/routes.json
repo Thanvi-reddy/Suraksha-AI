@@ -1,0 +1,265 @@
+{
+  "suppliers": [
+    {
+      "id": "russia",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "share_pct": 34,
+      "via_routes": ["cape_of_good_hope", "northern_route"],
+      "crude_grade": "Urals (sour)",
+      "discount_to_brent": -8,
+      "payment_risk": "medium",
+      "note": "Largest single supplier. Sells at discount due to Western sanctions."
+    },
+    {
+      "id": "iraq",
+      "name": "Iraq",
+      "flag": "🇮🇶",
+      "share_pct": 20,
+      "via_routes": ["hormuz"],
+      "crude_grade": "Basra Heavy (sour)",
+      "discount_to_brent": -2,
+      "payment_risk": "low",
+      "note": "Reliable second supplier. Short transit, grade compatible with Indian refineries."
+    },
+    {
+      "id": "saudi",
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "share_pct": 15,
+      "via_routes": ["hormuz", "saudi_pipeline"],
+      "crude_grade": "Arab Light (medium sour)",
+      "discount_to_brent": 1,
+      "payment_risk": "low",
+      "note": "World largest exporter. Pipeline bypass exists but was attacked in April 2026."
+    },
+    {
+      "id": "uae",
+      "name": "UAE",
+      "flag": "🇦🇪",
+      "share_pct": 10,
+      "via_routes": ["hormuz", "fujairah_bypass"],
+      "crude_grade": "Murban (sweet)",
+      "discount_to_brent": 0,
+      "payment_risk": "low",
+      "note": "Fujairah bypass available but drone-attacked in April 2026."
+    },
+    {
+      "id": "usa",
+      "name": "USA",
+      "flag": "🇺🇸",
+      "share_pct": 6,
+      "via_routes": ["cape_of_good_hope"],
+      "crude_grade": "WTI (sweet)",
+      "discount_to_brent": 3,
+      "payment_risk": "low",
+      "note": "Safe route, growing share. Premium priced but politically safe."
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "share_pct": 4,
+      "via_routes": ["cape_of_good_hope"],
+      "crude_grade": "Lula (medium sweet)",
+      "discount_to_brent": 2,
+      "payment_risk": "low",
+      "note": "Growing supplier. Cape route adds transit time but zero geopolitical risk."
+    },
+    {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "flag": "🇳🇬",
+      "share_pct": 4,
+      "via_routes": ["cape_of_good_hope"],
+      "crude_grade": "Bonny Light (sweet)",
+      "discount_to_brent": 1,
+      "payment_risk": "low",
+      "note": "West African supplier. Safe route, compatible grade for Indian refineries."
+    }
+  ],
+  "routes": [
+    {
+      "id": "hormuz",
+      "name": "Strait of Hormuz",
+      "type": "chokepoint",
+      "baseline_risk": 12,
+      "capacity_bpd": 2200000,
+      "vulnerability_factor": 0.95,
+      "shares_infrastructure_with": ["saudi_pipeline", "fujairah_bypass"],
+      "transit_days_to_india": 15,
+      "lat": 26.5,
+      "lng": 56.3,
+      "note": "Single most critical chokepoint. 20-25% of global oil passes through here."
+    },
+    {
+      "id": "saudi_pipeline",
+      "name": "Saudi East-West Pipeline",
+      "type": "pipeline_bypass",
+      "baseline_risk": 8,
+      "capacity_bpd": 700000,
+      "vulnerability_factor": 0.60,
+      "shares_infrastructure_with": ["hormuz"],
+      "transit_days_to_india": 20,
+      "lat": 26.4,
+      "lng": 50.1,
+      "note": "Bypasses Hormuz. Attacked April 2026, lost 700,000 bpd capacity."
+    },
+    {
+      "id": "fujairah_bypass",
+      "name": "UAE Fujairah Bypass",
+      "type": "pipeline_bypass",
+      "baseline_risk": 8,
+      "capacity_bpd": 1500000,
+      "vulnerability_factor": 0.65,
+      "shares_infrastructure_with": ["hormuz"],
+      "transit_days_to_india": 12,
+      "lat": 25.1,
+      "lng": 56.3,
+      "note": "Another Hormuz bypass. Fujairah terminal drone-attacked April 2026."
+    },
+    {
+      "id": "cape_of_good_hope",
+      "name": "Cape of Good Hope",
+      "type": "open_ocean",
+      "baseline_risk": 5,
+      "capacity_bpd": 3000000,
+      "vulnerability_factor": 0.10,
+      "shares_infrastructure_with": [],
+      "transit_days_to_india": 30,
+      "lat": -34.4,
+      "lng": 18.5,
+      "note": "Safest route. India rerouted 70% of imports here by May 2026."
+    },
+    {
+      "id": "red_sea",
+      "name": "Red Sea / Suez Canal",
+      "type": "chokepoint",
+      "baseline_risk": 35,
+      "capacity_bpd": 2500000,
+      "vulnerability_factor": 0.50,
+      "shares_infrastructure_with": [],
+      "transit_days_to_india": 18,
+      "lat": 20.0,
+      "lng": 38.5,
+      "note": "Already risky from 2023-24 Houthi attacks. Not a safe fallback."
+    },
+    {
+      "id": "northern_route",
+      "name": "Northern Route (Russia)",
+      "type": "open_ocean",
+      "baseline_risk": 20,
+      "capacity_bpd": 1000000,
+      "vulnerability_factor": 0.20,
+      "shares_infrastructure_with": [],
+      "transit_days_to_india": 25,
+      "lat": 55.0,
+      "lng": 60.0,
+      "note": "Russia-specific route. Medium risk due to sanctions complications."
+    }
+  ],
+  "ports": [
+    {
+      "id": "mundra",
+      "name": "Mundra Port",
+      "state": "Gujarat",
+      "capacity_mmtpa": 75,
+      "lat": 22.84,
+      "lng": 69.70
+    },
+    {
+      "id": "kandla",
+      "name": "Kandla Port",
+      "state": "Gujarat",
+      "capacity_mmtpa": 45,
+      "lat": 23.01,
+      "lng": 70.22
+    },
+    {
+      "id": "vizag_port",
+      "name": "Visakhapatnam Port",
+      "state": "Andhra Pradesh",
+      "capacity_mmtpa": 35,
+      "lat": 17.69,
+      "lng": 83.28
+    },
+    {
+      "id": "kochi_port",
+      "name": "Kochi Port",
+      "state": "Kerala",
+      "capacity_mmtpa": 20,
+      "lat": 9.96,
+      "lng": 76.27
+    }
+  ],
+  "refineries": [
+    {
+      "id": "jamnagar",
+      "name": "Jamnagar (Reliance)",
+      "state": "Gujarat",
+      "capacity_bpd": 1400000,
+      "supplied_by_routes": ["hormuz", "cape_of_good_hope"],
+      "lat": 22.47,
+      "lng": 70.07
+    },
+    {
+      "id": "mumbai_bpcl",
+      "name": "Mumbai (BPCL)",
+      "state": "Maharashtra",
+      "capacity_bpd": 240000,
+      "supplied_by_routes": ["hormuz"],
+      "lat": 19.08,
+      "lng": 72.88
+    },
+    {
+      "id": "kochi_bpcl",
+      "name": "Kochi (BPCL)",
+      "state": "Kerala",
+      "capacity_bpd": 310000,
+      "supplied_by_routes": ["hormuz", "cape_of_good_hope"],
+      "lat": 9.93,
+      "lng": 76.26
+    },
+    {
+      "id": "vizag_hpcl",
+      "name": "Visakhapatnam (HPCL)",
+      "state": "Andhra Pradesh",
+      "capacity_bpd": 166000,
+      "supplied_by_routes": ["hormuz"],
+      "lat": 17.69,
+      "lng": 83.28
+    },
+    {
+      "id": "panipat",
+      "name": "Panipat (IOC)",
+      "state": "Haryana",
+      "capacity_bpd": 300000,
+      "supplied_by_routes": ["northern_route", "cape_of_good_hope"],
+      "lat": 29.39,
+      "lng": 76.97
+    }
+  ],
+  "spr_sites": [
+    {
+      "id": "vizag_spr",
+      "name": "Visakhapatnam SPR",
+      "capacity_mmt": 1.33,
+      "lat": 17.69,
+      "lng": 83.28
+    },
+    {
+      "id": "mangaluru_spr",
+      "name": "Mangaluru SPR",
+      "capacity_mmt": 1.5,
+      "lat": 12.87,
+      "lng": 74.88
+    },
+    {
+      "id": "padur_spr",
+      "name": "Padur SPR",
+      "capacity_mmt": 2.5,
+      "lat": 13.18,
+      "lng": 74.73
+    }
+  ]
+}

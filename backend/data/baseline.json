@@ -1,0 +1,36 @@
+{
+  "reference_date": "2026-01-15",
+  "description": "Pre-crisis normal operating state for India energy supply chain",
+  "oil_prices": {
+    "brent_usd": 71.2,
+    "india_basket_usd": 70.1,
+    "wti_usd": 68.4
+  },
+  "supply": {
+    "daily_consumption_bpd": 5000000,
+    "daily_imports_bpd": 4350000,
+    "domestic_production_bpd": 650000,
+    "import_dependency_pct": 87
+  },
+  "route_distribution": {
+    "hormuz_pct": 48,
+    "cape_of_good_hope_pct": 32,
+    "red_sea_pct": 12,
+    "northern_route_pct": 5,
+    "other_pct": 3
+  },
+  "reserves": {
+    "spr_capacity_mmt": 5.33,
+    "spr_fill_pct": 64,
+    "spr_days_coverage": 6.1,
+    "commercial_stock_days": 67.9,
+    "total_buffer_days": 74.0
+  },
+  "economics": {
+    "annual_import_bill_billion_usd": 148,
+    "oil_as_pct_of_imports": 27,
+    "price_sensitivity": "Each $10 per barrel increase adds 0.3 percentage points to wholesale inflation"
+  },
+  "refineries_total_capacity_bpd": 2416000,
+  "active_refineries": 23
+}
