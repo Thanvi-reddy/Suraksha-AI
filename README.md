@@ -25,6 +25,8 @@ Overview
 Suraksha AI is an AI-powered platform that helps organizations monitor energy supply networks, identify potential risks, simulate disruption scenarios, and receive intelligent recommendations for resilient procurement planning.
 
 
+**Note on scenario data:** The Jan–Jun 2026 crisis timeline used to demo the platform (Hormuz closure, pipeline attacks, price spikes, etc.) is a fictional, hypothetical scenario built to stress-test the risk and simulation engines. It is not a record of real events. All underlying math (risk scoring, substitution pressure, cost impact, SPR survival days) is computed deterministically by the risk engine from this synthetic data — the AI Copilot only explains and narrates the numbers, it never invents or recomputes them.
+
 
 The platform combines interactive visualization, predictive analysis, and an AI Copilot to support faster and more informed decision-making.
 

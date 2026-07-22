@@ -690,7 +690,7 @@ export default function App() {
     'No major event'
 
   const selectedEventSource =
-    networkState?.latest_event?.source ||
+    networkState?.latest_event?.scenario_basis ||
     'Suraksha AI prototype dataset'
 
   if (screen === 'splash') {

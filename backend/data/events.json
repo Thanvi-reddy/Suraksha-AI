@@ -9,21 +9,21 @@
     "india_basket_price_usd": 70.1,
     "volume_affected_pct": 0,
     "substitution_pressure_trigger": false,
-    "note": "India importing normally. 48% via Hormuz route.",
-    "source": "PPAC baseline data"
+    "note": "India importing normally in this simulated baseline. 48% via Hormuz route.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   },
   {
     "id": "evt_002",
     "date": "2026-02-28",
-    "event_name": "US-Israel Launch Operation Epic Fury Against Iran",
+    "event_name": "SIMULATED: US-Israel Strikes Escalate Iran Tensions",
     "affected_routes": ["hormuz"],
     "severity": 65,
     "brent_price_usd": 78.4,
     "india_basket_price_usd": 77.2,
     "volume_affected_pct": 8,
     "substitution_pressure_trigger": false,
-    "note": "Airstrikes kill Supreme Leader Khamenei. Gulf tension spikes immediately.",
-    "source": "Reuters, IEA March 2026 report"
+    "note": "Fictional scenario event: hypothetical airstrikes sharply raise Gulf tension. Used only to drive the demo timeline.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   },
   {
     "id": "evt_003",
@@ -35,8 +35,8 @@
     "india_basket_price_usd": 88.1,
     "volume_affected_pct": 18,
     "substitution_pressure_trigger": true,
-    "note": "Iran begins attacking vessels. UKMTO reports 10 attacks, 5 crew deaths. Tanker traffic drops 70%.",
-    "source": "UKMTO reports, IEA statement"
+    "note": "Simulated scenario: Iran begins attacking vessels. Modeled on UKMTO-style incident reporting (10 attacks, tanker traffic down 70%) for demo purposes only.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   },
   {
     "id": "evt_004",
@@ -48,8 +48,8 @@
     "india_basket_price_usd": 92.8,
     "volume_affected_pct": 16,
     "substitution_pressure_trigger": true,
-    "note": "India allowed to purchase stranded Russian cargoes to stabilize domestic prices.",
-    "source": "US Treasury announcement"
+    "note": "Simulated scenario: hypothetical emergency waiver allowing India to buy stranded Russian cargoes to stabilize domestic prices.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   },
   {
     "id": "evt_005",
@@ -61,8 +61,8 @@
     "india_basket_price_usd": 113.57,
     "volume_affected_pct": 20,
     "substitution_pressure_trigger": true,
-    "note": "Highest price since June 2022. India imports fall 23%. IEA calls it largest supply disruption in history.",
-    "source": "PPAC, IEA"
+    "note": "Simulated scenario: modeled price spike to $113.57/bbl, styled on the June 2022 record high, to stress-test the model.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   },
   {
     "id": "evt_006",
@@ -74,8 +74,8 @@
     "india_basket_price_usd": 116.9,
     "volume_affected_pct": 23,
     "substitution_pressure_trigger": true,
-    "note": "KEY EVENT. Pipeline loses 700,000 bpd. The assumed-safe alternative route is now also under attack.",
-    "source": "Reuters, OPEC monitoring"
+    "note": "KEY SIMULATED EVENT. Hypothetical pipeline attack removing 700,000 bpd, testing what happens when the 'safe' alternative route also fails.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   },
   {
     "id": "evt_007",
@@ -87,8 +87,8 @@
     "india_basket_price_usd": 118.2,
     "volume_affected_pct": 25,
     "substitution_pressure_trigger": true,
-    "note": "SECOND ALTERNATIVE FAILS. UAE bypass route compromised. All three Gulf exit options now degraded.",
-    "source": "UKMTO, Reuters"
+    "note": "SIMULATED: second alternative route modeled as compromised, so all three Gulf exit options are degraded in the scenario.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   },
   {
     "id": "evt_008",
@@ -100,8 +100,8 @@
     "india_basket_price_usd": 115.8,
     "volume_affected_pct": 24,
     "substitution_pressure_trigger": true,
-    "note": "No international resolution. 2,000 ships and 20,000 sailors stranded in Gulf.",
-    "source": "UN Security Council records"
+    "note": "Simulated scenario: modeled diplomatic deadlock with thousands of ships and sailors stranded in the Gulf.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   },
   {
     "id": "evt_009",
@@ -113,8 +113,8 @@
     "india_basket_price_usd": 106.9,
     "volume_affected_pct": 18,
     "substitution_pressure_trigger": false,
-    "note": "India diversifies to 40 source countries. Cape route adds 12 days transit time.",
-    "source": "PPAC data, shipping reports"
+    "note": "Simulated scenario: India diversifies to 40 source countries; Cape route modeled as adding 12 days transit time.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   },
   {
     "id": "evt_010",
@@ -126,8 +126,8 @@
     "india_basket_price_usd": 99.8,
     "volume_affected_pct": 10,
     "substitution_pressure_trigger": false,
-    "note": "Prices drop $17 per barrel in 4 trading sessions. 500 vessels still waiting, demining ongoing.",
-    "source": "IEA, Reuters"
+    "note": "Simulated scenario: modeled ceasefire causing a $17/bbl price drop over 4 sessions, with 500 vessels still waiting.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   },
   {
     "id": "evt_011",
@@ -139,7 +139,7 @@
     "india_basket_price_usd": 93.1,
     "volume_affected_pct": 8,
     "substitution_pressure_trigger": false,
-    "note": "Analysts warn: hardest part is delivering on MoU pledges. US counter-blockade on Iranian ports still active.",
-    "source": "Reuters, IEA June 2026 report"
+    "note": "Simulated scenario: fragile recovery phase, modeled with an ongoing counter-blockade on Iranian ports.",
+    "scenario_basis": "Simulated/hypothetical scenario data for demo purposes (not a real reported event)"
   }
 ]
